@@ -23,3 +23,12 @@ Enter total payments for month(2)  : 75
 Your closing balance is $51.51
 
 """
+a=0
+for i in range(1, 13):
+    x=float(input("total purchases:"))
+    y=float(input("total payment:"))
+    I=(x-y+a)*0.02
+    total=I+x-y
+    a=I+a
+    print(f"2% interest has been charged: {I}")
+    print(f"Your closing balance is ${total}")

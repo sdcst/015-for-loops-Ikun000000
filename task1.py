@@ -13,7 +13,7 @@ will help you print things on the same line.
 Example:
 print("Hello", end="")
 print("This is on the same line")
-(2 points)
+(2 points) 
 
 inputs:
 int number
@@ -25,3 +25,6 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+i1=int(input("Number:"))
+for i in range (1, 13):
+  print( i1 * i, end=" ")

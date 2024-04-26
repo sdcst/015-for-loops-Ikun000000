@@ -14,3 +14,12 @@ Your GST is 2.75
 Your PST is 3.85
 Your total is 61.65
 """
+y = 0
+for i in range(1, 6):
+    x = float(input("Enter price of item: "))
+    y = y + x
+else:
+    a=0.05*y
+    b=0.07*y
+total=a+b+y
+print(total,end="")
